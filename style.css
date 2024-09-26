@@ -93,7 +93,6 @@ body::before{
     z-index: 1;
 }
 @media screen and (max-width: 1023px) {
-
     .banner .content h1{
         text-align: center;
         width: 100%;
@@ -110,16 +109,21 @@ body::before{
         text-align: center;
         padding: 0 30px;
     }
+    .contacts{
+        position: absolute;
+        top: 14%;
+        left: 45%;   
+    }
 }
 @media screen and (max-width: 767px) {
     .banner .content h1{
         font-size: 5em;
     }
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    .contacts{
+        position: absolute;
+        top: 14%;
+        left: 30%;
+    }
 }
 button {
     font-family: Poppins;
@@ -150,10 +154,4 @@ button::before {
 }
 button:hover::before {
     width: 9em;
-}
-.contacts{
-    position: absolute;
-    top: 14%;
-    left: 45%;
-    
 }
